@@ -1,0 +1,1051 @@
+@font-face {
+    font-family: "LinkinPark";
+    src: url(../fonts/linkinpark.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+/*! ------------------------- RESET ------------------------- */
+
+* {
+    /* outline: 1px solid red; */
+    margin: 0;
+    padding: 0;
+}
+
+.nombre-bio h2 {
+    padding: 15px;
+}
+
+/*! ------------------------- HEADER PAGES ------------------------- */
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+.perfil h2 {
+    font-family: "LinkinPark";
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    position: relative;
+    bottom: -10px;
+    padding: 20px;
+}
+
+.biografia h2 {
+    font-family: "LinkinPark";
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    position: relative;
+    bottom: -10px;
+    padding: 20px;
+}
+
+.albumes h2 {
+    font-family: "LinkinPark";
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    position: relative;
+    bottom: -10px;
+    padding: 20px;
+}
+
+.canciones h2 {
+    font-family: "LinkinPark";
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    position: relative;
+    bottom: -10px;
+    padding: 20px;
+}
+
+.menu{
+    background-color: black;
+}
+
+.nav-link{
+    color: white;
+}
+
+.active{
+    background-color: white;
+    color: rgb(238, 13, 13);
+}
+
+.nav-item a{
+    color: white;
+}
+
+.nav-item a:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.dropdown-menu{
+    background-color: black;
+}
+
+.boton{
+    border-color: white;
+    color: white;
+}
+
+.boton:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.fix{
+    color:white;
+}
+
+.fix:hover{
+    color: rgb(141, 141, 141);
+}
+
+.carroza{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.sizze{
+    width: 70%;
+    height: 90%;
+    margin-bottom: 10px;
+    position: relative;
+    left: 15%
+    
+    
+}
+
+.active{
+    background-color: black;
+}
+
+.navbar-toggler-icon{
+    background-color: white;
+}
+
+
+
+
+
+
+/*! ------------------------- HEADER INDEX ------------------------- */
+
+.titulo h1 {
+    font-family: "LinkinPark";
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    position: relative;
+    bottom: -10px;
+    padding: 20px;
+}
+
+.titulo div {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.titulo div img {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+/*! ------------------------- MAIN bio ------------------------- */
+
+/* .elementos-1 h1 {
+    font-family: "LinkinPark";
+    font-size: 40px;
+    padding-top: 25px;
+    font-style: italic;
+    color: white;
+} */
+
+.elementos-1 h2{
+    position: relative;
+    left: 25%;
+    background-color: rgba(0, 0, 0, 0.288);
+    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    width: 50%;
+}
+
+
+
+.elementos-1 {
+    background-image: url(../img/linkin-bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(227, 227, 227);
+    background-color: rgba(0, 0, 0, 0.288);
+    padding: 40px;
+    
+
+}
+
+.elementos-1 p{
+    background-color: rgba(0, 0, 0, 0.288);
+    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+}
+
+.integrante{
+    background-image: url(../img/linkin-bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(227, 227, 227);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.integrante h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: rgb(15, 15, 15);
+    width: 10%;
+    border-radius: 10px;
+
+}
+
+.integrante p{
+    background-color: rgba(0, 0, 0, 0.288);
+    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+}
+
+
+
+/*! ------------------------- MAIN nosotros ------------------------- */
+
+.perfil-info {
+    background-image: url(../img/linkin-bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.perfil-info h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(227, 227, 227);
+    background-color: rgba(0, 0, 0, 0.288);
+    padding: 20px;
+    margin-top: 10px;
+    
+
+}
+
+.perfil-info p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(227, 227, 227);
+    background-color: rgba(0, 0, 0, 0.288);
+    padding: 20px;
+    margin-top: 10px;
+    width: 50%;
+
+
+}
+
+.perfil-info div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*! ------------------------- MAIN canciones ------------------------- */
+
+.spotify {
+    background-image: url(../img/linkin-bg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.spotify div {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+
+.spotify iframe {
+    margin: 20px;
+}
+
+/*! ------------------------- MAIN albumes ------------------------- */
+
+.album-info h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.288);
+    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.album-info p {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(227, 227, 227);
+    background-color: rgba(0, 0, 0, 0.288);
+    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.album-info h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(227, 227, 227);
+    background-color: rgba(0, 0, 0, 0.288);
+    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.album-info {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    margin: 0px;
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.288);
+    padding: 20px;
+    
+
+}
+
+.album-info {
+    background-image: url(../img/linkin-bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.album-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.album-img img {
+    display: block;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.album-img div{
+    position: relative;
+}
+
+
+/*! ------------------------- MAIN index ------------------------- */
+
+.nombre-bio {
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/linkin-bg5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.nombre-bio h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: rgb(15, 15, 15);
+
+}
+
+.nombre-bio p {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    margin: 15px;
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+
+.top-songs {
+    background-image: url(../img/linkin-bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* padding: 50px */
+    ;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 50px;
+    /*     justify-content: center;
+    align-items: center; */
+
+}
+
+.videos iframe {
+    border-radius: 20px;
+}
+
+.video-titulo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+}
+
+
+
+.top-songs h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    background-color: rgb(15, 15, 15);
+    margin: 40px;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.top-title {
+    background-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.top-title h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    padding: 15px;
+    background-color: rgb(15, 15, 15);
+
+}
+
+.img-poster h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    padding: 15px;
+    margin-bottom: -1px;
+    background-color: rgb(15, 15, 15);
+}
+
+.conjunto-img img{
+    width: 90%;
+    padding: 20px;
+    gap: 10px;
+}
+
+.conjunto-img h3{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    margin-right: 100px;
+    
+    
+    background-color: rgb(15, 15, 15);
+}
+
+.conjunto-img{
+    background-image: url(../img/linkin-bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*! ------------------------- FOOTER ------------------------- */
+
+footer {
+    background-color: black;
+}
+
+footer h4 {
+    font-family: "LinkinPark";
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+}
+
+
+footer section div {
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: right;
+    /* margin-right: 50px; */
+}
+
+.social-media {
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 60px;
+    position: relative;
+    bottom: 30px;
+    margin: 0;
+}
+
+/*? Hacer botones con los iconos de redes */
+
+.container-f {
+    position: relative;
+    top: 40px;
+}
+
+/*! Media Query testeo*/
+
+@media screen and (max-width:1202px){
+    .video-titulo{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:350px){
+    .video-titulo{
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (max-width:1202px){
+    .videos{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:1463px){
+    .nombre-bio p{
+        font-size: 20px;
+        margin: 15px;
+        padding: 100px;
+    }
+}
+
+@media screen and (max-width:689px){
+    .nombre-bio p{
+        font-size: 20px;
+        margin: 15px;
+        padding: 10px;
+    }
+    
+}
+
+@media screen and (max-width:509px){
+    .container-f h4{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:509px){
+    .social-media img{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        bottom: -20px;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:395px){
+    .container-f h4{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:395px){
+    .social-media img{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        bottom: -30px;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:446px){
+    .nombre-bio p{
+        font-size: 19px;
+        margin: 15px;
+        padding: 10px;
+    }
+    
+}
+
+@media screen and (max-width:426px){
+    .nombre-bio p{
+        font-size: 18px;
+        margin: 15px;
+        padding: 10px;
+    }
+    
+}
+
+@media screen and (max-width:689px){
+    header nav ul{
+        
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:689px){
+    header nav ul li{
+        margin: 11px;
+        
+    }
+}
+
+@media screen and (max-width:600px){
+    header nav ul li a{
+        font-size: 15px;
+        padding: 5px;
+        
+        
+    }
+}
+
+@media screen and (max-width:443px){
+    header nav ul li a{
+        font-size: 13px;
+        padding: 2px;
+        
+        
+    }
+}
+
+@media screen and (max-width:383px){
+    header nav ul li a{
+        font-size: 11px;
+        padding: 2px;
+        
+        
+    }
+}
+
+
+@media screen and (max-width:689px){
+    .titulo div{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        
+    }
+}
+
+@media screen and (max-width:689px){
+    .titulo div h1{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        font-size: 30px;
+        padding: 0px;
+        
+    }
+}
+
+@media screen and (max-width:350px){
+    .titulo div{
+        flex-direction: row;
+        align-items: center;
+        margin: 0;
+        
+    }
+}
+@media screen and (max-width:446px){
+    .foto-1 h3{
+        position: relative;
+        left: 50px;
+        
+    }
+}
+
+@media screen and (max-width:446px){
+    .foto-2 h3{
+        position: relative;
+        left: 50px;
+        
+    }
+}
+
+@media screen and (max-width:446px){
+    .foto-3 h3{
+        position: relative;
+        left: 50px;
+        
+    }
+}
+
+@media screen and (max-width:446px){
+    .foto-4 h3{
+        position: relative;
+        left: 50px;
+        
+    }
+}
+
+@media screen and (max-width:446px){
+    .foto-5 h3{
+        position: relative;
+        left: 50px;
+        
+    }
+}
+
+@media screen and (max-width:583px){
+    .videos iframe{
+        width: 90%;
+        height: 400px;
+        
+        
+    }
+}
+
+@media screen and (max-width:391px){
+    .nombre-bio p{
+        font-size: 16px;
+        margin: 15px;
+        padding: 10px;
+    }
+    
+}
+
+@media screen and (max-width:543px){
+    .album-info h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:543px){
+    .album-info p{
+        font-size: 20px;
+        padding: 5px;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width:543px){
+    .album-info img{
+        width: 60%;
+        height: 60%;
+        margin: 20px;
+    }
+}
+
+/*? Media query 350px */
+
+@media screen and (max-width:350px){
+    .nombre-bio p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .nombre-bio h2{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .video-titulo h3{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .img-poster h2{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .top-title h2{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:350px){
+    header nav ul li a{
+        font-size: 12px;
+        padding: 2px;
+        margin: -8px;
+        position: relative;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .videos iframe{
+        width: 100%;
+        height: 100%;
+        
+    }
+}
+
+@media screen and (max-width:350px){
+    .container-f h4{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .social-media img{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        bottom: -19px;
+        margin: 20px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .foto-1 h3{
+        position: relative;
+        left: 50px;
+        font-size: 12px;
+        margin: 9;
+    }
+}
+
+@media screen and (max-width:350px){
+    .foto-1 img{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        left: 19px;
+        
+    }
+}
+
+@media screen and (max-width:350px){
+    .foto-2 h3{
+        position: relative;
+        left: 50px;
+        font-size: 12px;
+        margin: 9;
+    }
+}
+
+@media screen and (max-width:350px){
+    .foto-2 img{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        left: 19px;
+        
+    }
+}
+
+@media screen and (max-width:350px){
+    .foto-3 h3{
+        position: relative;
+        left: 50px;
+        font-size: 12px;
+        margin: 9;
+    }
+}
+
+@media screen and (max-width:350px){
+    .foto-3 img{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        left: 19px;
+        
+    }
+}
+
+@media screen and (max-width:350px){
+    .foto-4 h3{
+        position: relative;
+        left: 50px;
+        font-size: 12px;
+        margin: 9;
+        
+    }
+}
+
+@media screen and (max-width:350px){
+    .foto-4 img{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        left: 19px;
+        
+    }
+}
+
+@media screen and (max-width:350px){
+    .foto-5 h3{
+        position: relative;
+        left: 50px;
+        font-size: 12px;
+        margin: 9;
+        
+    }
+}
+
+@media screen and (max-width:350px){
+    .foto-5 img{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        left: 19px;
+        
+    }
+}
+
+@media screen and (max-width:350px){
+    .foto-6 img{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        left: 19px;
+        
+    }
+}
+
+@media screen and (max-width:350px){
+    .foto-7 img{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        left: 19px;
+        
+    }
+}
+
+@media screen and (max-width:350px){
+    .foto-8 img{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        left: 19px;
+        
+    }
+}
+
+@media screen and (max-width:350px){
+    .foto-9 img{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        left: 19px;
+        
+    }
+}
+
+@media screen and (max-width:350px){
+    .album-info h2{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .album-info p{
+        font-size: 16px;
+        padding: 5px;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .album-info img{
+        width: 60%;
+        height: 60%;
+        margin: 20px;
+    }
+}
+
+
+
