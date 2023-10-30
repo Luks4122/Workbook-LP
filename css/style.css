@@ -821,6 +821,24 @@ footer section div {
     }
 }
 
+@media screen and (max-width:592px){
+    .nombre-bio p{
+        font-size: 17px;
+        margin: 15px;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width:438px){
+    .nombre-bio p{
+        font-size: 15px;
+        margin: 15px;
+        padding: 10px;
+    }
+
+}
+
 /*? Media query 350px */
 
 @media screen and (max-width:350px){
