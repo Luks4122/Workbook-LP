@@ -322,6 +322,14 @@ header{
 
 /*! ------------------------- MAIN albumes ------------------------- */
 
+.albumes-bg{
+    background-image: url(../img/linkin-bg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .album-info h2 {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
@@ -351,7 +359,7 @@ header{
 .album-info h2 {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
     color: rgb(227, 227, 227);
     background-color: rgba(0, 0, 0, 0.800);
@@ -373,8 +381,157 @@ header{
     
 
 }
+.album-1 h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(227, 227, 227);
+    background-color: rgba(0, 0, 0, 0.800);
+    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.589);
 
-.album-info {
+}
+
+.album-1 img{
+    position: relative;
+    left: 25%;
+}
+
+.album-2 h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(227, 227, 227);
+    background-color: rgba(0, 0, 0, 0.800);
+    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.589);
+
+}
+
+.album-2 img{
+    position: relative;
+    left: 25%;
+}
+
+
+
+.album-3 h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(227, 227, 227);
+    background-color: rgba(0, 0, 0, 0.800);
+    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.589);
+
+}
+
+.album-3 img{
+    position: relative;
+    left: 25%;
+}
+
+
+
+.album-4 h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(227, 227, 227);
+    background-color: rgba(0, 0, 0, 0.800);
+    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.589);
+
+}
+
+.album-4 img{
+    position: relative;
+    left: 25%;
+}
+
+
+
+.album-5 h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(227, 227, 227);
+    background-color: rgba(0, 0, 0, 0.800);
+    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.589);
+
+}
+
+.album-5 img{
+    position: relative;
+    left: 25%;
+}
+
+
+
+.album-6 h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(227, 227, 227);
+    background-color: rgba(0, 0, 0, 0.800);
+    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.589);
+
+}
+
+.album-6 img{
+    position: relative;
+    left: 25%;
+}
+
+
+.albumes-grid img{
+    outline: 1px solid white;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.albumes-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 2fr);
+    gap: 0px;
+}
+
+/* .album-info {
     background-image: url(../img/linkin-bg3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -399,7 +556,7 @@ header{
 .album-img div{
     position: relative;
 }
-
+ */
 
 /*! ------------------------- MAIN index ------------------------- */
 
