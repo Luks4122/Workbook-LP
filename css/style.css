@@ -381,6 +381,7 @@ header{
     
 
 }
+
 .album-1 h2{
     font-family: 'Roboto', sans-serif;
     font-style: italic;
@@ -400,6 +401,7 @@ header{
 .album-1 img{
     position: relative;
     left: 25%;
+    bottom: 5%;
 }
 
 .album-2 h2{
@@ -421,6 +423,7 @@ header{
 .album-2 img{
     position: relative;
     left: 25%;
+    bottom: 5%;
 }
 
 
@@ -444,6 +447,7 @@ header{
 .album-3 img{
     position: relative;
     left: 25%;
+    bottom: 5%;
 }
 
 
@@ -467,6 +471,7 @@ header{
 .album-4 img{
     position: relative;
     left: 25%;
+    bottom: 5%;
 }
 
 
@@ -490,6 +495,7 @@ header{
 .album-5 img{
     position: relative;
     left: 25%;
+    bottom: 5%;
 }
 
 
@@ -513,6 +519,7 @@ header{
 .album-6 img{
     position: relative;
     left: 25%;
+    bottom: 5%;
 }
 
 
@@ -522,6 +529,10 @@ header{
     height: 300px;
     padding: 5px;
     margin: 5px;
+}
+
+.albumes-grid img:hover{
+    outline: 3px solid white;
 }
 
 .albumes-grid{
