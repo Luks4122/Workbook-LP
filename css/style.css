@@ -19,7 +19,7 @@
 
 /*! ------------------------- HEADER PAGES ------------------------- */
 
-header{
+header {
     position: sticky;
     top: 0;
     z-index: 1;
@@ -66,84 +66,77 @@ header{
     padding: 20px;
 }
 
-.menu{
+.menu {
     background-color: black;
 }
 
-.nav-link{
+.nav-link {
     color: white;
 }
 
-.active{
+.active {
     background-color: white;
     color: rgb(238, 13, 13);
 }
 
-.nav-item a{
+.nav-item a {
     color: white;
 }
 
-.nav-item a:hover{
+.nav-item a:hover {
     background-color: white;
     color: rgb(0, 0, 0);
 }
 
-.dropdown-menu{
+.dropdown-menu {
     background-color: black;
 }
 
-.boton{
+.boton {
     border-color: white;
     color: white;
 }
 
-.boton:hover{
+.boton:hover {
     background-color: white;
     color: rgb(0, 0, 0);
 }
 
-.navbar-brand{
+.navbar-brand {
     color: white;
 }
 
-.fix{
-    color:white;
+.fix {
+    color: white;
 }
 
-.fix:hover{
+.fix:hover {
     color: rgb(141, 141, 141);
 }
 
-.carroza{
+.carroza {
     background-color: black;
     display: flex;
     flex-direction: column;
-    
-    
+
+
 }
 
-.sizze{
+.sizze {
     width: 70%;
     height: 90%;
     margin-bottom: 10px;
     position: relative;
     left: 15%
-    
-    
 }
 
-.active{
+.active {
     background-color: black;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     background-color: white;
 }
-
-
-
-
-
 
 /*! ------------------------- HEADER INDEX ------------------------- */
 
@@ -180,11 +173,12 @@ header{
     color: white;
 } */
 
-.elementos-1 h2{
+.elementos-1 h2 {
     position: relative;
     left: 25%;
     background-color: rgba(0, 0, 0, 0.800);
-    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    ;
     width: 50%;
     padding: 20px;
 }
@@ -205,17 +199,18 @@ header{
     color: rgb(227, 227, 227);
     background-color: rgba(0, 0, 0, 0.288);
     padding: 40px;
-    
+
 
 }
 
-.elementos-1 p{
+.elementos-1 p {
     background-color: rgba(0, 0, 0, 0.800);
-    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    ;
     padding: 20px;
 }
 
-.integrante{
+.integrante {
     background-image: url(../img/linkin-bg3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -234,20 +229,19 @@ header{
     align-items: center;
 }
 
-.integrante h2{
+.integrante h2 {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-size: 30px;
     text-decoration: none;
     background-color: rgb(0, 0, 0, 0.800);
     width: 10%;
-    border-radius: px;
-
 }
 
-.integrante p{
+.integrante p {
     background-color: rgba(0, 0, 0, 0.800);
-    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    ;
     padding: 20px;
 }
 
@@ -261,7 +255,7 @@ header{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    
+
 }
 
 .perfil-info h2 {
@@ -274,7 +268,7 @@ header{
     background-color: rgba(0, 0, 0, 0.800);
     padding: 20px;
     margin-top: 10px;
-    
+
 
 }
 
@@ -293,7 +287,7 @@ header{
 
 }
 
-.perfil-info div{
+.perfil-info div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -322,7 +316,18 @@ header{
 
 /*! ------------------------- MAIN albumes ------------------------- */
 
-.albumes-bg{
+.volver-boton {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+.albumes-bg {
     background-image: url(../img/linkin-bg3.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -330,59 +335,7 @@ header{
     background-attachment: fixed;
 }
 
-.album-info h2 {
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-size: 30px;
-    text-decoration: none;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.288);
-    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
-    margin: 50px;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.album-info p {
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-size: 30px;
-    text-decoration: none;
-    color: rgb(227, 227, 227);
-    background-color: rgba(0, 0, 0, 0.800);
-    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
-    margin: 50px;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.album-info h2 {
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-size: 20px;
-    text-decoration: none;
-    color: rgb(227, 227, 227);
-    background-color: rgba(0, 0, 0, 0.800);
-    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
-    margin: 50px;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.album-info {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-size: 25px;
-    margin: 0px;
-    padding: 100px;
-    background-color: rgba(0, 0, 0, 0.288);
-    padding: 20px;
-    
-
-}
-
-.album-1 h2{
+.album-1 h2 {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-size: 20px;
@@ -390,7 +343,8 @@ header{
     text-align: center;
     color: rgb(227, 227, 227);
     background-color: rgba(0, 0, 0, 0.800);
-    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    ;
     margin: 50px;
     padding: 20px;
     border-radius: 10px;
@@ -398,13 +352,13 @@ header{
 
 }
 
-.album-1 img{
+.album-1 img {
     position: relative;
     left: 25%;
     bottom: 5%;
 }
 
-.album-2 h2{
+.album-2 h2 {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-size: 20px;
@@ -412,7 +366,8 @@ header{
     text-align: center;
     color: rgb(227, 227, 227);
     background-color: rgba(0, 0, 0, 0.800);
-    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    ;
     margin: 50px;
     padding: 20px;
     border-radius: 10px;
@@ -420,15 +375,13 @@ header{
 
 }
 
-.album-2 img{
+.album-2 img {
     position: relative;
     left: 25%;
     bottom: 5%;
 }
 
-
-
-.album-3 h2{
+.album-3 h2 {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-size: 20px;
@@ -436,7 +389,8 @@ header{
     text-align: center;
     color: rgb(227, 227, 227);
     background-color: rgba(0, 0, 0, 0.800);
-    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    ;
     margin: 50px;
     padding: 20px;
     border-radius: 10px;
@@ -444,15 +398,13 @@ header{
 
 }
 
-.album-3 img{
+.album-3 img {
     position: relative;
     left: 25%;
     bottom: 5%;
 }
 
-
-
-.album-4 h2{
+.album-4 h2 {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-size: 20px;
@@ -460,7 +412,8 @@ header{
     text-align: center;
     color: rgb(227, 227, 227);
     background-color: rgba(0, 0, 0, 0.800);
-    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    ;
     margin: 50px;
     padding: 20px;
     border-radius: 10px;
@@ -468,15 +421,13 @@ header{
 
 }
 
-.album-4 img{
+.album-4 img {
     position: relative;
     left: 25%;
     bottom: 5%;
 }
 
-
-
-.album-5 h2{
+.album-5 h2 {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-size: 20px;
@@ -484,7 +435,8 @@ header{
     text-align: center;
     color: rgb(227, 227, 227);
     background-color: rgba(0, 0, 0, 0.800);
-    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    ;
     margin: 50px;
     padding: 20px;
     border-radius: 10px;
@@ -492,15 +444,13 @@ header{
 
 }
 
-.album-5 img{
+.album-5 img {
     position: relative;
     left: 25%;
     bottom: 5%;
 }
 
-
-
-.album-6 h2{
+.album-6 h2 {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-size: 20px;
@@ -508,7 +458,8 @@ header{
     text-align: center;
     color: rgb(227, 227, 227);
     background-color: rgba(0, 0, 0, 0.800);
-    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    ;
     margin: 50px;
     padding: 20px;
     border-radius: 10px;
@@ -516,14 +467,14 @@ header{
 
 }
 
-.album-6 img{
+.album-6 img {
     position: relative;
     left: 25%;
     bottom: 5%;
 }
 
 
-.albumes-grid img{
+.albumes-grid img {
     outline: 1px solid white;
     width: 300px;
     height: 300px;
@@ -531,18 +482,18 @@ header{
     margin: 5px;
 }
 
-.albumes-grid img:hover{
+.albumes-grid img:hover {
     outline: 3px solid white;
 }
 
-.albumes-grid{
+.albumes-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 2fr);
     gap: 0px;
 }
 
-/* .album-info {
+.album-info {
     background-image: url(../img/linkin-bg3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -550,24 +501,48 @@ header{
     background-attachment: fixed;
 }
 
-.album-img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.album-img img {
-    display: block;
-    width: 500px;
-    height: 500px;
-    border-radius: 20px;
-}
-
-.album-img div{
+.disco h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(227, 227, 227);
+    background-color: rgba(0, 0, 0, 0.800);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    padding: 10px;
     position: relative;
+    left: 45%;
+    width: 20%;
+    top: 5px;
+
 }
- */
+
+.album-info p {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(227, 227, 227);
+    background-color: rgba(0, 0, 0, 0.800);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding: 10px;
+    margin: 50px;
+
+}
+
+.disco {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 2fr);
+}
+
+.disco img {
+    outline: 1px solid white;
+    position: relative;
+    left: 30%;
+}
 
 /*! ------------------------- MAIN index ------------------------- */
 
@@ -596,7 +571,8 @@ header{
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-size: 25px;
-    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    ;
     margin: 15px;
     padding: 100px;
     background-color: rgba(0, 0, 0, 0.288);
@@ -609,7 +585,6 @@ header{
     background-position: center;
     background-attachment: fixed;
     /* padding: 50px */
-    ;
 }
 
 .videos {
@@ -634,8 +609,6 @@ header{
     position: relative;
 
 }
-
-
 
 .top-songs h3 {
     color: white;
@@ -677,13 +650,13 @@ header{
     background-color: rgb(15, 15, 15);
 }
 
-.conjunto-img img{
+.conjunto-img img {
     width: 90%;
     padding: 20px;
     gap: 10px;
 }
 
-.conjunto-img h3{
+.conjunto-img h3 {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
@@ -691,12 +664,10 @@ header{
     text-align: center;
     padding: 15px;
     margin-right: 100px;
-    
-    
     background-color: rgb(15, 15, 15);
 }
 
-.conjunto-img{
+.conjunto-img {
     background-image: url(../img/linkin-bg3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -721,7 +692,6 @@ footer h4 {
     font-style: italic;
     color: white;
 }
-
 
 footer section div {
     display: flex;
@@ -751,52 +721,52 @@ footer section div {
 
 /*! Media Query testeo*/
 
-@media screen and (max-width:1202px){
-    .video-titulo{
+@media screen and (max-width:1202px) {
+    .video-titulo {
         flex-direction: column;
     }
 }
 
 
-@media screen and (max-width:350px){
-    .video-titulo{
+@media screen and (max-width:350px) {
+    .video-titulo {
         flex-direction: column;
 
     }
 }
 
-@media screen and (max-width:1202px){
-    .videos{
+@media screen and (max-width:1202px) {
+    .videos {
         flex-direction: column;
     }
 }
 
 
-@media screen and (max-width:1463px){
-    .nombre-bio p{
+@media screen and (max-width:1463px) {
+    .nombre-bio p {
         font-size: 20px;
         margin: 15px;
         padding: 100px;
     }
 }
 
-@media screen and (max-width:689px){
-    .nombre-bio p{
+@media screen and (max-width:689px) {
+    .nombre-bio p {
         font-size: 20px;
         margin: 15px;
         padding: 10px;
     }
-    
+
 }
 
-@media screen and (max-width:509px){
-    .container-f h4{
+@media screen and (max-width:509px) {
+    .container-f h4 {
         font-size: 25px;
     }
 }
 
-@media screen and (max-width:509px){
-    .social-media img{
+@media screen and (max-width:509px) {
+    .social-media img {
         width: 50px;
         height: 50px;
         position: relative;
@@ -806,14 +776,14 @@ footer section div {
     }
 }
 
-@media screen and (max-width:395px){
-    .container-f h4{
+@media screen and (max-width:395px) {
+    .container-f h4 {
         font-size: 20px;
     }
 }
 
-@media screen and (max-width:395px){
-    .social-media img{
+@media screen and (max-width:395px) {
+    .social-media img {
         width: 40px;
         height: 40px;
         position: relative;
@@ -823,177 +793,178 @@ footer section div {
     }
 }
 
-@media screen and (max-width:446px){
-    .nombre-bio p{
+@media screen and (max-width:446px) {
+    .nombre-bio p {
         font-size: 19px;
         margin: 15px;
         padding: 10px;
     }
-    
+
 }
 
-@media screen and (max-width:426px){
-    .nombre-bio p{
+@media screen and (max-width:426px) {
+    .nombre-bio p {
         font-size: 18px;
         margin: 15px;
         padding: 10px;
     }
-    
+
 }
 
-@media screen and (max-width:689px){
-    header nav ul{
-        
+@media screen and (max-width:689px) {
+    header nav ul {
+
         align-items: center;
     }
 }
 
 
-@media screen and (max-width:689px){
-    header nav ul li{
+@media screen and (max-width:689px) {
+    header nav ul li {
         margin: 11px;
-        
+
     }
 }
 
-@media screen and (max-width:600px){
-    header nav ul li a{
+@media screen and (max-width:600px) {
+    header nav ul li a {
         font-size: 15px;
         padding: 5px;
-        
-        
+
+
     }
 }
 
-@media screen and (max-width:443px){
-    header nav ul li a{
+@media screen and (max-width:443px) {
+    header nav ul li a {
         font-size: 13px;
         padding: 2px;
-        
-        
+
+
     }
 }
 
-@media screen and (max-width:383px){
-    header nav ul li a{
+@media screen and (max-width:383px) {
+    header nav ul li a {
         font-size: 11px;
         padding: 2px;
-        
-        
+
+
     }
 }
 
 
-@media screen and (max-width:689px){
-    .titulo div{
+@media screen and (max-width:689px) {
+    .titulo div {
         flex-direction: column;
         align-items: center;
         margin: 0;
-        
+
     }
 }
 
-@media screen and (max-width:689px){
-    .titulo div h1{
+@media screen and (max-width:689px) {
+    .titulo div h1 {
         flex-direction: column;
         align-items: center;
         margin: 0;
         font-size: 30px;
         padding: 0px;
-        
+
     }
 }
 
-@media screen and (max-width:350px){
-    .titulo div{
+@media screen and (max-width:350px) {
+    .titulo div {
         flex-direction: row;
         align-items: center;
         margin: 0;
-        
-    }
-}
-@media screen and (max-width:446px){
-    .foto-1 h3{
-        position: relative;
-        left: 50px;
-        
+
     }
 }
 
-@media screen and (max-width:446px){
-    .foto-2 h3{
+@media screen and (max-width:446px) {
+    .foto-1 h3 {
         position: relative;
         left: 50px;
-        
+
     }
 }
 
-@media screen and (max-width:446px){
-    .foto-3 h3{
+@media screen and (max-width:446px) {
+    .foto-2 h3 {
         position: relative;
         left: 50px;
-        
+
     }
 }
 
-@media screen and (max-width:446px){
-    .foto-4 h3{
+@media screen and (max-width:446px) {
+    .foto-3 h3 {
         position: relative;
         left: 50px;
-        
+
     }
 }
 
-@media screen and (max-width:446px){
-    .foto-5 h3{
+@media screen and (max-width:446px) {
+    .foto-4 h3 {
         position: relative;
         left: 50px;
-        
+
     }
 }
 
-@media screen and (max-width:583px){
-    .videos iframe{
+@media screen and (max-width:446px) {
+    .foto-5 h3 {
+        position: relative;
+        left: 50px;
+
+    }
+}
+
+@media screen and (max-width:583px) {
+    .videos iframe {
         width: 90%;
         height: 400px;
-        
-        
+
+
     }
 }
 
-@media screen and (max-width:391px){
-    .nombre-bio p{
+@media screen and (max-width:391px) {
+    .nombre-bio p {
         font-size: 16px;
         margin: 15px;
         padding: 10px;
     }
-    
+
 }
 
-@media screen and (max-width:543px){
-    .album-info h2{
+@media screen and (max-width:543px) {
+    .album-info h2 {
         font-size: 20px;
     }
 }
 
-@media screen and (max-width:543px){
-    .album-info p{
+@media screen and (max-width:543px) {
+    .album-info p {
         font-size: 20px;
         padding: 5px;
         margin: 0px;
     }
 }
 
-@media screen and (max-width:543px){
-    .album-info img{
+@media screen and (max-width:543px) {
+    .album-info img {
         width: 60%;
         height: 60%;
         margin: 20px;
     }
 }
 
-@media screen and (max-width:592px){
-    .nombre-bio p{
+@media screen and (max-width:592px) {
+    .nombre-bio p {
         font-size: 17px;
         margin: 15px;
         padding: 10px;
@@ -1001,8 +972,8 @@ footer section div {
 
 }
 
-@media screen and (max-width:438px){
-    .nombre-bio p{
+@media screen and (max-width:438px) {
+    .nombre-bio p {
         font-size: 15px;
         margin: 15px;
         padding: 10px;
@@ -1012,38 +983,38 @@ footer section div {
 
 /*? Media query 350px */
 
-@media screen and (max-width:350px){
-    .nombre-bio p{
+@media screen and (max-width:350px) {
+    .nombre-bio p {
         font-size: 15px;
     }
 }
 
-@media screen and (max-width:350px){
-    .nombre-bio h2{
+@media screen and (max-width:350px) {
+    .nombre-bio h2 {
         font-size: 16px;
     }
 }
 
-@media screen and (max-width:350px){
-    .video-titulo h3{
+@media screen and (max-width:350px) {
+    .video-titulo h3 {
         font-size: 16px;
     }
 }
 
-@media screen and (max-width:350px){
-    .img-poster h2{
+@media screen and (max-width:350px) {
+    .img-poster h2 {
         font-size: 16px;
     }
 }
 
-@media screen and (max-width:350px){
-    .top-title h2{
+@media screen and (max-width:350px) {
+    .top-title h2 {
         font-size: 16px;
     }
 }
 
-@media screen and (max-width:350px){
-    header nav ul li a{
+@media screen and (max-width:350px) {
+    header nav ul li a {
         font-size: 12px;
         padding: 2px;
         margin: -8px;
@@ -1052,22 +1023,22 @@ footer section div {
     }
 }
 
-@media screen and (max-width:350px){
-    .videos iframe{
+@media screen and (max-width:350px) {
+    .videos iframe {
         width: 100%;
         height: 100%;
-        
+
     }
 }
 
-@media screen and (max-width:350px){
-    .container-f h4{
+@media screen and (max-width:350px) {
+    .container-f h4 {
         font-size: 16px;
     }
 }
 
-@media screen and (max-width:350px){
-    .social-media img{
+@media screen and (max-width:350px) {
+    .social-media img {
         width: 30px;
         height: 30px;
         position: relative;
@@ -1077,8 +1048,8 @@ footer section div {
     }
 }
 
-@media screen and (max-width:350px){
-    .foto-1 h3{
+@media screen and (max-width:350px) {
+    .foto-1 h3 {
         position: relative;
         left: 50px;
         font-size: 12px;
@@ -1086,18 +1057,18 @@ footer section div {
     }
 }
 
-@media screen and (max-width:350px){
-    .foto-1 img{
+@media screen and (max-width:350px) {
+    .foto-1 img {
         margin: 0px;
         padding: 0px;
         position: relative;
         left: 19px;
-        
+
     }
 }
 
-@media screen and (max-width:350px){
-    .foto-2 h3{
+@media screen and (max-width:350px) {
+    .foto-2 h3 {
         position: relative;
         left: 50px;
         font-size: 12px;
@@ -1105,18 +1076,18 @@ footer section div {
     }
 }
 
-@media screen and (max-width:350px){
-    .foto-2 img{
+@media screen and (max-width:350px) {
+    .foto-2 img {
         margin: 0px;
         padding: 0px;
         position: relative;
         left: 19px;
-        
+
     }
 }
 
-@media screen and (max-width:350px){
-    .foto-3 h3{
+@media screen and (max-width:350px) {
+    .foto-3 h3 {
         position: relative;
         left: 50px;
         font-size: 12px;
@@ -1124,117 +1095,114 @@ footer section div {
     }
 }
 
-@media screen and (max-width:350px){
-    .foto-3 img{
+@media screen and (max-width:350px) {
+    .foto-3 img {
         margin: 0px;
         padding: 0px;
         position: relative;
         left: 19px;
-        
+
     }
 }
 
-@media screen and (max-width:350px){
-    .foto-4 h3{
+@media screen and (max-width:350px) {
+    .foto-4 h3 {
         position: relative;
         left: 50px;
         font-size: 12px;
         margin: 9;
-        
+
     }
 }
 
-@media screen and (max-width:350px){
-    .foto-4 img{
+@media screen and (max-width:350px) {
+    .foto-4 img {
         margin: 0px;
         padding: 0px;
         position: relative;
         left: 19px;
-        
+
     }
 }
 
-@media screen and (max-width:350px){
-    .foto-5 h3{
+@media screen and (max-width:350px) {
+    .foto-5 h3 {
         position: relative;
         left: 50px;
         font-size: 12px;
         margin: 9;
-        
+
     }
 }
 
-@media screen and (max-width:350px){
-    .foto-5 img{
+@media screen and (max-width:350px) {
+    .foto-5 img {
         margin: 0px;
         padding: 0px;
         position: relative;
         left: 19px;
-        
+
     }
 }
 
-@media screen and (max-width:350px){
-    .foto-6 img{
+@media screen and (max-width:350px) {
+    .foto-6 img {
         margin: 0px;
         padding: 0px;
         position: relative;
         left: 19px;
-        
+
     }
 }
 
-@media screen and (max-width:350px){
-    .foto-7 img{
+@media screen and (max-width:350px) {
+    .foto-7 img {
         margin: 0px;
         padding: 0px;
         position: relative;
         left: 19px;
-        
+
     }
 }
 
-@media screen and (max-width:350px){
-    .foto-8 img{
+@media screen and (max-width:350px) {
+    .foto-8 img {
         margin: 0px;
         padding: 0px;
         position: relative;
         left: 19px;
-        
+
     }
 }
 
-@media screen and (max-width:350px){
-    .foto-9 img{
+@media screen and (max-width:350px) {
+    .foto-9 img {
         margin: 0px;
         padding: 0px;
         position: relative;
         left: 19px;
-        
+
     }
 }
 
-@media screen and (max-width:350px){
-    .album-info h2{
+@media screen and (max-width:350px) {
+    .album-info h2 {
         font-size: 16px;
     }
 }
 
-@media screen and (max-width:350px){
-    .album-info p{
+@media screen and (max-width:350px) {
+    .album-info p {
         font-size: 16px;
         padding: 5px;
         margin: 0px;
     }
 }
 
-@media screen and (max-width:350px){
-    .album-info img{
+@media screen and (max-width:350px) {
+    .album-info img {
         width: 60%;
         height: 60%;
         margin: 20px;
     }
 }
-
-
-
