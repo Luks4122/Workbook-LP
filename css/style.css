@@ -527,8 +527,8 @@ header {
     color: rgb(227, 227, 227);
     background-color: rgba(0, 0, 0, 0.800);
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    padding: 10px;
-    margin: 50px;
+    padding: 20px;
+    margin: 0;
 
 }
 
@@ -542,6 +542,7 @@ header {
     outline: 1px solid white;
     position: relative;
     left: 30%;
+    margin: 10px;
 }
 
 /*! ------------------------- MAIN index ------------------------- */
