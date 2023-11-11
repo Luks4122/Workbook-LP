@@ -1,0 +1,28 @@
+.container-f{
+    position: relative;
+    top: 40px;
+}
+    h4{
+        font-family: "LinkinPark";
+        font-size: 40px;
+        font-style: italic;
+        color: white;
+    }
+
+.social-media{
+    display: flex;
+    justify-content: right;
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 60px;
+    position: relative;
+    bottom: 30px;
+    margin: 0;
+    div{
+        display: flex;
+        width: 60px;
+        height: 60px;
+        img{
+        }
+    }
+}
