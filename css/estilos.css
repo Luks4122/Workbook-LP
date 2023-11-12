@@ -206,3 +206,7 @@ h4 {
     display: flex;
     width: 60px;
     height: 60px; }
+
+@media screen and (max-width: 1202px) {
+  .video-titulo {
+    flex-direction: column; } }

@@ -8,7 +8,7 @@
 /*! ------------------------- RESET ------------------------- */
 
 * {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     margin: 0;
     padding: 0;
 }
@@ -303,6 +303,11 @@ body{
     align-items: center;
 }
 
+.perfil-info img{
+    position: relative;
+    bottom: 300px;
+}
+
 /*! ------------------------- MAIN canciones ------------------------- */
 
 .spotify {
@@ -525,7 +530,6 @@ body{
     left: 45%;
     width: 20%;
     top: 5px;
-
 }
 
 .album-info p {
@@ -554,6 +558,27 @@ body{
     left: 30%;
     margin: 10px;
 }
+
+.oml-1{
+    outline: 1px solid white;
+    position: relative;
+    left: 100%;
+    margin: 10px;
+}
+
+/*! ------------------------- Discos ------------------------------*/
+
+.album-parrafo{
+    margin: 0px;
+    position: relative;
+    bottom: 100%;
+}
+
+.disco img{
+    margin: 100px;
+    
+}
+
 
 /*! ------------------------- MAIN index ------------------------- */
 
@@ -603,9 +628,6 @@ body{
     align-items: center;
     gap: 100px;
     padding: 50px;
-    /*     justify-content: center;
-    align-items: center; */
-
 }
 
 .videos iframe {
@@ -613,11 +635,7 @@ body{
 }
 
 .video-titulo {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-
+    margin: 0px;
 }
 
 .top-songs h3 {
@@ -627,9 +645,12 @@ body{
     font-style: italic;
     font-size: 25px;
     background-color: rgb(15, 15, 15);
-    margin: 40px;
+    margin: 0;
     padding: 10px;
     border-radius: 40px;
+    width: 30%;
+    position: relative;
+    left: 35%;
 }
 
 .top-title {
@@ -643,9 +664,10 @@ body{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
-    font-size: 30px;
+    font-size: 20px;
     padding: 15px;
-    background-color: rgb(15, 15, 15);
+    margin: 0px;
+    
 
 }
 
@@ -738,7 +760,6 @@ footer section div {
     }
 }
 
-
 @media screen and (max-width:350px) {
     .video-titulo {
         flex-direction: column;
@@ -759,6 +780,15 @@ footer section div {
         margin: 15px;
         padding: 100px;
     }
+}
+
+@media screen and (max-width:905px) {
+    .nombre-bio p{
+        font-size: 20px;
+        margin: 15px;
+        padding: 10px;
+    }
+
 }
 
 @media screen and (max-width:689px) {
@@ -1215,5 +1245,57 @@ footer section div {
         width: 60%;
         height: 60%;
         margin: 20px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .conjunto-img img{
+        position: relative;
+        left: 20%;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:787px){
+    .video-titulo h3{
+        width: 40%;
+        position: relative;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width:350px){
+    .video-titulo h3{
+        width: 60%;
+        position: relative;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width:1362px){
+    .conjunto-img h3{
+        position: relative;
+        left: 4%;
+    }
+}
+
+@media screen and (max-width:740px){
+    .conjunto-img h3{
+        position: relative;
+        left: 7%;
+    }
+}
+
+@media screen and (max-width:490px){
+    .conjunto-img h3{
+        position: relative;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width:350px){
+    .conjunto-img h3{
+        position: relative;
+        left: 15%;
     }
 }
