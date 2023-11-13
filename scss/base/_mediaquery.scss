@@ -1090,3 +1090,97 @@
         width: 50%;
     }
 }
+
+@media screen and (max-width:1386px){
+    .disco img{
+        position: relative;
+        left: 30%;
+    }
+    .disco h2{
+        position: relative;
+        left: 38%;
+    }
+}
+
+@media screen and (max-width:1386px){
+    .album-parrafo p{
+        font-size: 14;
+    }
+}
+
+@media screen and (max-width:1026px){
+    .disco img{
+        position: relative;
+        left: 25%;
+    }
+    .disco h2{
+        position: relative;
+        left: 40%;
+    }
+}
+
+@media screen and (max-width:1026px){
+    .album-parrafo p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .disco img{
+        position: relative;
+        left: 15%;
+    }
+    .disco h2{
+        position: relative;
+        left: 40%;
+    }
+
+}
+
+@media screen and (max-width:542px){
+    .disco img{
+        position: relative;
+        left: 15%;
+    }
+    .disco h2{
+        position: relative;
+        left: 40%;
+    }
+
+    .album-info h2{
+        font-size: 12px;
+        position: relative;
+        top: -50px;
+    }
+
+}
+
+@media screen and (max-width:950px){
+    .album-parrafo p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .disco img{
+        position: relative;
+        left: 15%;
+    }
+    .disco h2{
+        position: relative;
+        left: 40%;
+    }
+
+    .album-info h2{
+        font-size: 12px;
+        width: 30%;
+        position: relative;
+        top: -50px;
+    }
+
+    .album-img p{
+        font-size: 12px;
+        padding: 10px;
+    }
+
+}

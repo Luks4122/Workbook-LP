@@ -13,6 +13,120 @@
 .nombre-bio h2 {
   padding: 15px; }
 
+.albumes-bg .albumes-grid .album-1 h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: #e3e3e3;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.589); }
+
+.albumes-bg .albumes-grid .album-1 a img {
+  position: relative;
+  left: 25%;
+  bottom: 5%; }
+
+.albumes-bg .albumes-grid .album-1 h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: #e3e3e3;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.589); }
+
+.albumes-bg .albumes-grid .album-1 a img {
+  position: relative;
+  left: 25%;
+  bottom: 5%; }
+
+.albumes-bg .albumes-grid .album-1 h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: #e3e3e3;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.589); }
+
+.albumes-bg .albumes-grid .album-1 a img {
+  position: relative;
+  left: 25%;
+  bottom: 5%; }
+
+.albumes-bg .albumes-grid .album-1 h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: #e3e3e3;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.589); }
+
+.albumes-bg .albumes-grid .album-1 a img {
+  position: relative;
+  left: 25%;
+  bottom: 5%; }
+
+.albumes-bg .albumes-grid .album-1 h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: #e3e3e3;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.589); }
+
+.albumes-bg .albumes-grid .album-1 a img {
+  position: relative;
+  left: 25%;
+  bottom: 5%; }
+
+.albumes-bg .albumes-grid .album-1 h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: #e3e3e3;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.589); }
+
+.albumes-bg .albumes-grid .album-1 a img {
+  position: relative;
+  left: 25%;
+  bottom: 5%; }
+
 .nombre-bio {
   color: white;
   text-align: center;
@@ -955,3 +1069,67 @@ h4 {
     position: relative;
     left: 10%;
     width: 50%; } }
+
+@media screen and (max-width: 1386px) {
+  .disco img {
+    position: relative;
+    left: 30%; }
+  .disco h2 {
+    position: relative;
+    left: 38%; } }
+
+@media screen and (max-width: 1386px) {
+  .album-parrafo p {
+    font-size: 14; } }
+
+@media screen and (max-width: 1026px) {
+  .disco img {
+    position: relative;
+    left: 25%; }
+  .disco h2 {
+    position: relative;
+    left: 40%; } }
+
+@media screen and (max-width: 1026px) {
+  .album-parrafo p {
+    font-size: 13px; } }
+
+@media screen and (max-width: 700px) {
+  .disco img {
+    position: relative;
+    left: 15%; }
+  .disco h2 {
+    position: relative;
+    left: 40%; } }
+
+@media screen and (max-width: 542px) {
+  .disco img {
+    position: relative;
+    left: 15%; }
+  .disco h2 {
+    position: relative;
+    left: 40%; }
+  .album-info h2 {
+    font-size: 12px;
+    position: relative;
+    top: -50px; } }
+
+@media screen and (max-width: 950px) {
+  .album-parrafo p {
+    font-size: 12px; } }
+
+@media screen and (max-width: 350px) {
+  .disco img {
+    position: relative;
+    left: 15%; }
+  .disco h2 {
+    position: relative;
+    left: 40%; }
+  .album-info h2 {
+    font-size: 12px;
+    width: 30%;
+    position: relative;
+    top: -50px; }
+  .album-img p {
+    font-size: 12px;
+    padding: 10px; } }
