@@ -127,6 +127,387 @@
   left: 25%;
   bottom: 5%; }
 
+.bio-display .elementos-1 {
+  background-image: url(../img/linkin-bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 25px;
+  text-decoration: none;
+  color: #e3e3e3;
+  background-color: rgba(0, 0, 0, 0.288);
+  padding: 40px; }
+  .bio-display .elementos-1 h2 {
+    font-size: 20px;
+    position: relative;
+    left: 25%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    width: 50%;
+    padding: 20px; }
+  .bio-display .elementos-1 p {
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding: 20px; }
+
+.bio-display section .integrante {
+  background-image: url(../img/linkin-bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  color: #e3e3e3;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .bio-display section .integrante h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    text-decoration: none;
+    width: 10%; }
+  .bio-display section .integrante p {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding: 20px; }
+
+.spotify {
+  background-image: url(../img/linkin-bg3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .spotify div {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px; }
+    .spotify div iframe {
+      margin: 20px; }
+
+section .volver-boton a {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 5px; }
+
+.album-info {
+  background-image: url(../img/linkin-bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .album-info .disco {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 2fr); }
+    .album-info .disco img {
+      outline: 1px solid white;
+      position: relative;
+      left: 38%;
+      margin: 100px; }
+    .album-info .disco h2 {
+      font-family: 'Roboto', sans-serif;
+      font-style: italic;
+      font-size: 12px;
+      text-decoration: none;
+      text-align: center;
+      color: #e3e3e3;
+      background-color: rgba(0, 0, 0, 0.8);
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+      padding: 10px;
+      position: relative;
+      left: 42%;
+      width: 20%;
+      top: -10px; }
+  .album-info .album-parrafo {
+    margin: 0px;
+    position: relative;
+    bottom: 100%; }
+
+section .volver-boton a {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 5px; }
+
+.album-info {
+  background-image: url(../img/linkin-bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .album-info .disco {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 2fr); }
+    .album-info .disco img {
+      outline: 1px solid white;
+      position: relative;
+      left: 38%;
+      margin: 100px; }
+    .album-info .disco h2 {
+      font-family: 'Roboto', sans-serif;
+      font-style: italic;
+      font-size: 12px;
+      text-decoration: none;
+      text-align: center;
+      color: #e3e3e3;
+      background-color: rgba(0, 0, 0, 0.8);
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+      padding: 10px;
+      position: relative;
+      left: 42%;
+      width: 20%;
+      top: -10px; }
+  .album-info .album-parrafo {
+    margin: 0px;
+    position: relative;
+    bottom: 100%; }
+
+section .volver-boton a {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 5px; }
+
+.album-info {
+  background-image: url(../img/linkin-bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .album-info .disco {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 2fr); }
+    .album-info .disco img {
+      outline: 1px solid white;
+      position: relative;
+      left: 38%;
+      margin: 100px; }
+    .album-info .disco h2 {
+      font-family: 'Roboto', sans-serif;
+      font-style: italic;
+      font-size: 12px;
+      text-decoration: none;
+      text-align: center;
+      color: #e3e3e3;
+      background-color: rgba(0, 0, 0, 0.8);
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+      padding: 10px;
+      position: relative;
+      left: 42%;
+      width: 20%;
+      top: -10px; }
+  .album-info .album-parrafo {
+    margin: 0px;
+    position: relative;
+    bottom: 100%; }
+
+section .volver-boton a {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 5px; }
+
+.album-info {
+  background-image: url(../img/linkin-bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .album-info .disco {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 2fr); }
+    .album-info .disco img {
+      outline: 1px solid white;
+      position: relative;
+      left: 38%;
+      margin: 100px; }
+    .album-info .disco h2 {
+      font-family: 'Roboto', sans-serif;
+      font-style: italic;
+      font-size: 12px;
+      text-decoration: none;
+      text-align: center;
+      color: #e3e3e3;
+      background-color: rgba(0, 0, 0, 0.8);
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+      padding: 10px;
+      position: relative;
+      left: 42%;
+      width: 20%;
+      top: -10px; }
+  .album-info .album-parrafo {
+    margin: 0px;
+    position: relative;
+    bottom: 100%; }
+
+section .volver-boton a {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 5px; }
+
+.album-info {
+  background-image: url(../img/linkin-bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .album-info .disco {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 2fr); }
+    .album-info .disco img {
+      outline: 1px solid white;
+      position: relative;
+      left: 38%;
+      margin: 100px; }
+  .album-info .disco h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+    color: #e3e3e3;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding: 10px;
+    position: relative;
+    left: 42%;
+    width: 20%;
+    top: -10px; }
+  .album-info .album-parrafo {
+    margin: 0px;
+    position: relative;
+    bottom: 100%; }
+
+section .volver-boton a {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 5px; }
+
+.album-info {
+  background-image: url(../img/linkin-bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .album-info .disco {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 2fr); }
+    .album-info .disco img {
+      outline: 1px solid white;
+      position: relative;
+      left: 38%;
+      margin: 100px; }
+    .album-info .disco h2 {
+      font-family: 'Roboto', sans-serif;
+      font-style: italic;
+      font-size: 12px;
+      text-decoration: none;
+      text-align: center;
+      color: #e3e3e3;
+      background-color: rgba(0, 0, 0, 0.8);
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+      padding: 10px;
+      position: relative;
+      left: 42%;
+      width: 20%;
+      top: -10px; }
+  .album-info .album-parrafo {
+    margin: 0px;
+    position: relative;
+    bottom: 100%; }
+
+.perfil-info {
+  background-image: url(../img/linkin-bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .perfil-info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .perfil-info div h2 {
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-style: italic;
+      font-size: 20px;
+      text-decoration: none;
+      color: #e3e3e3;
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      margin-top: 10px; }
+
+.perfil-info {
+  background-image: url(../img/linkin-bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .perfil-info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .perfil-info div p {
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-style: italic;
+      font-size: 18px;
+      text-decoration: none;
+      color: #e3e3e3;
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      margin-top: 30%;
+      width: 50%;
+      position: relative;
+      bottom: 500px; }
+    .perfil-info div img {
+      position: relative;
+      bottom: 300px; }
+
 .nombre-bio {
   color: white;
   text-align: center;
