@@ -13,6 +13,15 @@
   padding: 15px; }
 
 /* bootstrap clases */
+.titulo .menu {
+  background-color: black; }
+  .titulo .menu .container-fluid .fix {
+    color: white; }
+  .titulo .menu .container-fluid .navbar-collapse .mb-lg-0 .nav-item {
+    color: white; }
+    .titulo .menu .container-fluid .navbar-collapse .mb-lg-0 .nav-item a {
+      color: white; }
+
 .nombre-bio {
   color: white;
   text-align: center;

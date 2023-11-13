@@ -1,3 +1,32 @@
+
+.titulo{
+    .menu{
+        background-color: black;
+        .container-fluid{
+            .fix{
+                color: white;
+            }
+            .navbar-toggler{
+                .navbar-toggler-icon{
+
+                }
+            }
+            .navbar-collapse{
+                .mb-lg-0{
+                    .nav-item{
+                        color: white;
+                        a{
+                            color: white;
+                            &:hover{
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 .nombre-bio{
     color: white;
     text-align: center;
@@ -179,3 +208,4 @@
         }
     }
 }
+
