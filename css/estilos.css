@@ -13,8 +13,98 @@
   padding: 15px; }
 
 /* bootstrap clases */
-.titulo .menu {
+.navbar-toggler-icon {
+  background-color: white; }
+
+.menu {
   background-color: black; }
+
+.nav-link {
+  color: white; }
+
+.active {
+  background-color: white;
+  color: #ee0d0d; }
+
+.nav-item a {
+  color: white; }
+
+.nav-item a:hover {
+  background-color: white;
+  color: black; }
+
+.dropdown-menu {
+  background-color: black; }
+
+.boton {
+  border-color: white;
+  color: white; }
+
+.boton:hover {
+  background-color: white;
+  color: black; }
+
+.navbar-brand {
+  color: white; }
+
+.fix {
+  color: white; }
+
+.fix:hover {
+  color: #8d8d8d; }
+
+.active {
+  background-color: black; }
+
+.carroza {
+  background-color: black;
+  display: flex;
+  flex-direction: column; }
+
+.sizze {
+  width: 70%;
+  height: 90%;
+  margin-bottom: 10px;
+  position: relative;
+  left: 15%; }
+
+/* .titulo{
+    .menu{
+        background-color: black;
+        .container-fluid{
+            .navbar-brand{
+                color: white;
+            }
+            &.fix{
+                color: white;
+            }
+            .navbar-toggler{
+                .navbar-toggler-icon{
+                    background-color: white;
+                }
+            }
+            .navbar-collapse{
+                .mb-lg-0{
+                    .nav-item{
+                        .nav-link{
+                            color: white;
+
+                        }
+                    }
+                    .dropdown{
+                        .dropdown-menu{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+} */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1; }
 
 .titulo h1 {
   font-family: "LinkinPark";
@@ -79,22 +169,16 @@
     background-attachment: fixed; }
     .top-title .top-songs .video-titulo {
       margin: 0px; }
-      .top-title .top-songs .video-titulo .videos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 100px;
-        padding: 50px; }
-        .top-title .top-songs .video-titulo .videos iframe {
-          border-radius: 20px; }
-      .top-title .top-songs .video-titulo .videos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 100px;
-        padding: 50px; }
-        .top-title .top-songs .video-titulo .videos iframe {
-          border-radius: 20px; }
+      .top-title .top-songs .video-titulo h3 {
+        color: white;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+        font-size: 25px;
+        background-color: #0f0f0f;
+        margin: 40px;
+        padding: 10px;
+        border-radius: 40px; }
       .top-title .top-songs .video-titulo .videos {
         display: flex;
         justify-content: center;
@@ -684,27 +768,6 @@ section .volver-boton a {
     font-size: 30px;
     padding: 15px;
     background-color: #0f0f0f; }
-  .top-title .top-songs {
-    background-image: url(../img/linkin-bg3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; }
-    .top-title .top-songs .video-titulo {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      position: relative; }
-      .top-title .top-songs .video-titulo h3 {
-        color: white;
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        font-style: italic;
-        font-size: 25px;
-        background-color: #0f0f0f;
-        margin: 40px;
-        padding: 10px;
-        border-radius: 40px; }
 
 .img-poster h2 {
   color: white;
@@ -817,6 +880,20 @@ section .volver-boton a {
   padding: 15px;
   margin-right: 100px;
   background-color: #0f0f0f; }
+
+footer {
+  background-color: black; }
+
+footer h4 {
+  font-family: "LinkinPark";
+  font-size: 40px;
+  font-style: italic;
+  color: white; }
+
+footer section div {
+  display: flex;
+  width: 60px;
+  height: 60px; }
 
 .container-f {
   position: relative;

@@ -19,6 +19,76 @@
 
 /* bootstrap clases */
 
+.navbar-toggler-icon{
+    background-color: white;
+}
+
+.menu {
+    background-color: black;
+}
+
+.nav-link {
+    color: white;
+}
+
+.active {
+    background-color: white;
+    color: rgb(238, 13, 13);
+}
+
+.nav-item a {
+    color: white;
+}
+
+.nav-item a:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.boton {
+    border-color: white;
+    color: white;
+}
+
+.boton:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.fix {
+    color: white;
+}
+
+.fix:hover {
+    color: rgb(141, 141, 141);
+}
+
+.active{
+    background-color: black;
+}
+
+.carroza{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.sizze{
+    width: 70%;
+    height: 90%;
+    margin-bottom: 10px;
+    position: relative;
+    left: 15%
+}
+
 .navbar{
 
 }
@@ -115,19 +185,11 @@
 
 }
 
-.active{
-
-}
-
 .carousel-inner{
 
 }
 
 .carousel-item{
-
-}
-
-.sizze{
 
 }
 

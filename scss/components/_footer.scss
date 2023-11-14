@@ -1,3 +1,20 @@
+footer {
+    background-color: black;
+}
+
+footer h4 {
+    font-family: "LinkinPark";
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+}
+
+footer section div {
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+
 .container-f{
     position: relative;
     top: 40px;
