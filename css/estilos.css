@@ -15,12 +15,24 @@
 /* bootstrap clases */
 .titulo .menu {
   background-color: black; }
-  .titulo .menu .container-fluid .fix {
-    color: white; }
-  .titulo .menu .container-fluid .navbar-collapse .mb-lg-0 .nav-item {
-    color: white; }
-    .titulo .menu .container-fluid .navbar-collapse .mb-lg-0 .nav-item a {
-      color: white; }
+
+.titulo h1 {
+  font-family: "LinkinPark";
+  font-size: 40px;
+  font-style: italic;
+  color: white;
+  position: relative;
+  bottom: -10px;
+  padding: 20px; }
+
+.titulo div {
+  display: flex;
+  align-items: center;
+  padding: 10px; }
+
+.titulo div img {
+  width: 60px;
+  height: 60px; }
 
 .nombre-bio {
   color: white;
@@ -101,6 +113,19 @@
   padding: 15px;
   margin-bottom: -1px;
   background-color: #0f0f0f; }
+
+.carroza {
+  background-color: black;
+  display: flex;
+  flex-direction: column; }
+  .carroza .carousel-inner .active {
+    background-color: black; }
+    .carroza .carousel-inner .active .sizze {
+      width: 70%;
+      height: 90%;
+      margin-bottom: 10px;
+      position: relative;
+      left: 15%; }
 
 .conjunto-img {
   background-image: url(../img/linkin-bg3.jpg);
