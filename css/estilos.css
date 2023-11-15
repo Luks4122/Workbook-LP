@@ -174,7 +174,7 @@ header {
         text-align: center;
         font-family: 'Roboto', sans-serif;
         font-style: italic;
-        font-size: 25px;
+        font-size: 20px;
         background-color: #0f0f0f;
         margin: 40px;
         padding: 10px;
@@ -1271,7 +1271,7 @@ h4 {
   .video-titulo h3 {
     width: 60%;
     position: relative;
-    left: 20%; } }
+    left: 10%; } }
 
 @media screen and (max-width: 1362px) {
   .conjunto-img h3 {
