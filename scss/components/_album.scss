@@ -1,5 +1,14 @@
 .albumes-bg{
+    background-image: url(../img/linkin-bg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     .albumes-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 2fr);
+        gap: 0px;
         .album-1{
             h2{
                 font-family: 'Roboto', sans-serif;
@@ -21,10 +30,18 @@
                     position: relative;
                     left: 25%;
                     bottom: 5%;
+                    outline: 1px solid white;
+                    width: 300px;
+                    height: 300px;
+                    padding: 5px;
+                    margin: 5px;
+                    &:hover{
+                        outline: 3px solid white;
+                    }
                 }
             }
         }
-        .album-1{
+        .album-2{
             h2{
                 font-family: 'Roboto', sans-serif;
                 font-style: italic;
@@ -45,10 +62,18 @@
                     position: relative;
                     left: 25%;
                     bottom: 5%;
+                    outline: 1px solid white;
+                    width: 300px;
+                    height: 300px;
+                    padding: 5px;
+                    margin: 5px;
+                    &:hover{
+                        outline: 3px solid white;
+                    }
                 }
             }
         }
-        .album-1{
+        .album-3{
             h2{
                 font-family: 'Roboto', sans-serif;
                 font-style: italic;
@@ -69,10 +94,18 @@
                     position: relative;
                     left: 25%;
                     bottom: 5%;
+                    outline: 1px solid white;
+                    width: 300px;
+                    height: 300px;
+                    padding: 5px;
+                    margin: 5px;
+                    &:hover{
+                        outline: 3px solid white;
+                    }
                 }
             }
         }
-        .album-1{
+        .album-4{
             h2{
                 font-family: 'Roboto', sans-serif;
                 font-style: italic;
@@ -93,10 +126,18 @@
                     position: relative;
                     left: 25%;
                     bottom: 5%;
+                    outline: 1px solid white;
+                    width: 300px;
+                    height: 300px;
+                    padding: 5px;
+                    margin: 5px;
+                    &:hover{
+                        outline: 3px solid white;
+                    }
                 }
             }
         }
-        .album-1{
+        .album-5{
             h2{
                 font-family: 'Roboto', sans-serif;
                 font-style: italic;
@@ -117,10 +158,18 @@
                     position: relative;
                     left: 25%;
                     bottom: 5%;
+                    outline: 1px solid white;
+                    width: 300px;
+                    height: 300px;
+                    padding: 5px;
+                    margin: 5px;
+                    &:hover{
+                        outline: 3px solid white;
+                    }
                 }
             }
         }
-        .album-1{
+        .album-6{
             h2{
                 font-family: 'Roboto', sans-serif;
                 font-style: italic;
@@ -141,6 +190,14 @@
                     position: relative;
                     left: 25%;
                     bottom: 5%;
+                    outline: 1px solid white;
+                    width: 300px;
+                    height: 300px;
+                    padding: 5px;
+                    margin: 5px;
+                    &:hover{
+                        outline: 3px solid white;
+                    }
                 }
             }
         }
