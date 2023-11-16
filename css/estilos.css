@@ -68,39 +68,6 @@
   position: relative;
   left: 15%; }
 
-/* .titulo{
-    .menu{
-        background-color: black;
-        .container-fluid{
-            .navbar-brand{
-                color: white;
-            }
-            &.fix{
-                color: white;
-            }
-            .navbar-toggler{
-                .navbar-toggler-icon{
-                    background-color: white;
-                }
-            }
-            .navbar-collapse{
-                .mb-lg-0{
-                    .nav-item{
-                        .nav-link{
-                            color: white;
-
-                        }
-                    }
-                    .dropdown{
-                        .dropdown-menu{
-
-                        }
-                    }
-                }
-            }
-        }
-    }
-} */
 header {
   position: sticky;
   top: 0;
@@ -175,10 +142,12 @@ header {
         font-family: 'Roboto', sans-serif;
         font-style: italic;
         font-size: 20px;
-        background-color: #0f0f0f;
-        margin: 40px;
+        background-color: black;
         padding: 10px;
-        border-radius: 40px; }
+        border-radius: 10px;
+        width: 30%;
+        position: relative;
+        left: 35%; }
       .top-title .top-songs .video-titulo .videos {
         display: flex;
         justify-content: center;
@@ -461,6 +430,61 @@ header {
     .spotify div iframe {
       margin: 20px; }
 
+section .volver-boton {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 5px; }
+
+.album-info {
+  background-image: url(../img/linkin-bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .album-info .disco {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 2fr); }
+    .album-info .disco img {
+      outline: 1px solid white;
+      position: relative;
+      left: 38%;
+      margin: 100px; }
+    .album-info .disco h2 {
+      font-family: 'Roboto', sans-serif;
+      font-style: italic;
+      font-size: 12px;
+      text-decoration: none;
+      text-align: center;
+      color: #e3e3e3;
+      background-color: rgba(0, 0, 0, 0.8);
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+      padding: 10px;
+      position: relative;
+      left: 42%;
+      width: 20%;
+      top: -10px; }
+  .album-info .album-parrafo {
+    margin: 0px;
+    position: relative;
+    bottom: 100%; }
+    .album-info .album-parrafo p {
+      font-family: 'Roboto', sans-serif;
+      font-style: italic;
+      font-size: 18px;
+      text-decoration: none;
+      text-align: center;
+      color: #e3e3e3;
+      background-color: rgba(0, 0, 0, 0.8);
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+      padding: 20px;
+      margin: 0; }
+
 section .volver-boton a {
   font-family: 'Roboto', sans-serif;
   font-style: italic;
@@ -544,54 +568,21 @@ section .volver-boton a {
       left: 42%;
       width: 20%;
       top: -10px; }
-  .album-info .album-parrafo {
+  .album-info .album-img {
     margin: 0px;
     position: relative;
     bottom: 100%; }
-
-section .volver-boton a {
-  font-family: 'Roboto', sans-serif;
-  font-style: italic;
-  font-size: 18px;
-  text-decoration: none;
-  text-align: center;
-  color: white;
-  background-color: black;
-  padding: 5px; }
-
-.album-info {
-  background-image: url(../img/linkin-bg3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; }
-  .album-info .disco {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 2fr); }
-    .album-info .disco img {
-      outline: 1px solid white;
-      position: relative;
-      left: 38%;
-      margin: 100px; }
-    .album-info .disco h2 {
+    .album-info .album-img p {
       font-family: 'Roboto', sans-serif;
       font-style: italic;
-      font-size: 12px;
+      font-size: 18px;
       text-decoration: none;
       text-align: center;
       color: #e3e3e3;
       background-color: rgba(0, 0, 0, 0.8);
       text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-      padding: 10px;
-      position: relative;
-      left: 42%;
-      width: 20%;
-      top: -10px; }
-  .album-info .album-parrafo {
-    margin: 0px;
-    position: relative;
-    bottom: 100%; }
+      padding: 20px;
+      margin: 0; }
 
 section .volver-boton a {
   font-family: 'Roboto', sans-serif;
@@ -1147,7 +1138,7 @@ h4 {
 
 @media screen and (max-width: 350px) {
   .video-titulo h3 {
-    font-size: 10px; } }
+    font-size: 16px; } }
 
 @media screen and (max-width: 350px) {
   .img-poster h2 {
@@ -1313,7 +1304,7 @@ h4 {
   .video-titulo h3 {
     width: 60%;
     position: relative;
-    left: 10%; } }
+    left: 20%; } }
 
 @media screen and (max-width: 1362px) {
   .conjunto-img h3 {

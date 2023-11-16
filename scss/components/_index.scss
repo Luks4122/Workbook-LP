@@ -1,36 +1,3 @@
-/* .titulo{
-    .menu{
-        background-color: black;
-        .container-fluid{
-            .navbar-brand{
-                color: white;
-            }
-            &.fix{
-                color: white;
-            }
-            .navbar-toggler{
-                .navbar-toggler-icon{
-                    background-color: white;
-                }
-            }
-            .navbar-collapse{
-                .mb-lg-0{
-                    .nav-item{
-                        .nav-link{
-                            color: white;
-
-                        }
-                    }
-                    .dropdown{
-                        .dropdown-menu{
-
-                        }
-                    }
-                }
-            }
-        }
-    }
-} */
 
 header {
     position: sticky;
@@ -117,10 +84,12 @@ header {
                 font-family: 'Roboto', sans-serif;
                 font-style: italic;
                 font-size: 20px;
-                background-color: rgb(15, 15, 15);
-                margin: 40px;
+                background-color: rgb(0, 0, 0);
                 padding: 10px;
-                border-radius: 40px;
+                border-radius: 10px;
+                width: 30%;
+                position: relative;
+                left: 35%;
             }
             .videos{
                 display: flex;
@@ -191,51 +160,6 @@ header {
             padding: 15px;
             margin-right: 100px;
             background-color: rgb(15, 15, 15);
-        }
-    }
-
-    .foto-2{
-        img{
-
-        }
-        h3{
-            
-        }
-    }
-
-    .foto-3{
-        img{
-
-        }
-        h3{
-            
-        }
-    }
-
-    .foto-4{
-        img{
-
-        }
-        h3{
-            
-        }
-    }
-
-    .foto-5{
-        img{
-
-        }
-        h3{
-            
-        }
-    }
-
-    .foto-9{
-        img{
-
-        }
-        h3{
-            
         }
     }
 }
