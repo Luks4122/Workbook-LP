@@ -269,6 +269,7 @@ header {
       .albumes-bg .albumes-grid .album-2 a img:hover {
         outline: 3px solid white;
         transform: scale(1.05);
+        box-shadow: 10px 9px 9px 0px rgba(0, 0, 0, 0.5);
         -webkit-box-shadow: 10px 9px 9px 0px rgba(0, 0, 0, 0.5);
         -moz-box-shadow: 10px 9px 9px 0px rgba(0, 0, 0, 0.5); }
     .albumes-bg .albumes-grid .album-3 h2 {
@@ -296,6 +297,7 @@ header {
       .albumes-bg .albumes-grid .album-3 a img:hover {
         outline: 3px solid white;
         transform: scale(1.05);
+        box-shadow: 10px 9px 9px 0px rgba(0, 0, 0, 0.5);
         -webkit-box-shadow: 10px 9px 9px 0px rgba(0, 0, 0, 0.5);
         -moz-box-shadow: 10px 9px 9px 0px rgba(0, 0, 0, 0.5); }
     .albumes-bg .albumes-grid .album-4 h2 {
@@ -323,6 +325,7 @@ header {
       .albumes-bg .albumes-grid .album-4 a img:hover {
         outline: 3px solid white;
         transform: scale(1.05);
+        box-shadow: 10px 9px 9px 0px rgba(0, 0, 0, 0.5);
         -webkit-box-shadow: 10px 9px 9px 0px rgba(0, 0, 0, 0.5);
         -moz-box-shadow: 10px 9px 9px 0px rgba(0, 0, 0, 0.5); }
     .albumes-bg .albumes-grid .album-5 h2 {
@@ -350,6 +353,7 @@ header {
       .albumes-bg .albumes-grid .album-5 a img:hover {
         outline: 3px solid white;
         transform: scale(1.05);
+        box-shadow: 10px 9px 9px 0px rgba(0, 0, 0, 0.5);
         -webkit-box-shadow: 10px 9px 9px 0px rgba(0, 0, 0, 0.5);
         -moz-box-shadow: 10px 9px 9px 0px rgba(0, 0, 0, 0.5); }
     .albumes-bg .albumes-grid .album-6 h2 {
@@ -377,6 +381,7 @@ header {
       .albumes-bg .albumes-grid .album-6 a img:hover {
         outline: 3px solid white;
         transform: scale(1.05);
+        box-shadow: 10px 9px 9px 0px rgba(0, 0, 0, 0.5);
         -webkit-box-shadow: 10px 9px 9px 0px rgba(0, 0, 0, 0.5);
         -moz-box-shadow: 10px 9px 9px 0px rgba(0, 0, 0, 0.5); }
 
