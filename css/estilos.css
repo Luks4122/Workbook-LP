@@ -227,8 +227,7 @@ header {
       text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
       margin: 50px;
       padding: 20px;
-      border-radius: 10px;
-      background-color: rgba(0, 0, 0, 0.589); }
+      border-radius: 10px; }
     .albumes-bg .albumes-grid .album-1 a img {
       position: relative;
       left: 25%;
@@ -237,9 +236,11 @@ header {
       width: 300px;
       height: 300px;
       padding: 5px;
-      margin: 5px; }
+      margin: 5px;
+      transition: 0.5s; }
       .albumes-bg .albumes-grid .album-1 a img:hover {
-        outline: 3px solid white; }
+        outline: 3px solid white;
+        transform: scale(1.05); }
     .albumes-bg .albumes-grid .album-2 h2 {
       font-family: 'Roboto', sans-serif;
       font-style: italic;
@@ -247,7 +248,6 @@ header {
       text-decoration: none;
       text-align: center;
       color: #e3e3e3;
-      background-color: rgba(0, 0, 0, 0.8);
       text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
       margin: 50px;
       padding: 20px;
@@ -261,9 +261,11 @@ header {
       width: 300px;
       height: 300px;
       padding: 5px;
-      margin: 5px; }
+      margin: 5px;
+      transition: 0.5s; }
       .albumes-bg .albumes-grid .album-2 a img:hover {
-        outline: 3px solid white; }
+        outline: 3px solid white;
+        transform: scale(1.05); }
     .albumes-bg .albumes-grid .album-3 h2 {
       font-family: 'Roboto', sans-serif;
       font-style: italic;
@@ -271,7 +273,6 @@ header {
       text-decoration: none;
       text-align: center;
       color: #e3e3e3;
-      background-color: rgba(0, 0, 0, 0.8);
       text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
       margin: 50px;
       padding: 20px;
@@ -285,9 +286,11 @@ header {
       width: 300px;
       height: 300px;
       padding: 5px;
-      margin: 5px; }
+      margin: 5px;
+      transition: 0.5s; }
       .albumes-bg .albumes-grid .album-3 a img:hover {
-        outline: 3px solid white; }
+        outline: 3px solid white;
+        transform: scale(1.05); }
     .albumes-bg .albumes-grid .album-4 h2 {
       font-family: 'Roboto', sans-serif;
       font-style: italic;
@@ -295,7 +298,6 @@ header {
       text-decoration: none;
       text-align: center;
       color: #e3e3e3;
-      background-color: rgba(0, 0, 0, 0.8);
       text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
       margin: 50px;
       padding: 20px;
@@ -309,9 +311,11 @@ header {
       width: 300px;
       height: 300px;
       padding: 5px;
-      margin: 5px; }
+      margin: 5px;
+      transition: 0.5s; }
       .albumes-bg .albumes-grid .album-4 a img:hover {
-        outline: 3px solid white; }
+        outline: 3px solid white;
+        transform: scale(1.05); }
     .albumes-bg .albumes-grid .album-5 h2 {
       font-family: 'Roboto', sans-serif;
       font-style: italic;
@@ -319,7 +323,6 @@ header {
       text-decoration: none;
       text-align: center;
       color: #e3e3e3;
-      background-color: rgba(0, 0, 0, 0.8);
       text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
       margin: 50px;
       padding: 20px;
@@ -333,9 +336,11 @@ header {
       width: 300px;
       height: 300px;
       padding: 5px;
-      margin: 5px; }
+      margin: 5px;
+      transition: 0.5s; }
       .albumes-bg .albumes-grid .album-5 a img:hover {
-        outline: 3px solid white; }
+        outline: 3px solid white;
+        transform: scale(1.05); }
     .albumes-bg .albumes-grid .album-6 h2 {
       font-family: 'Roboto', sans-serif;
       font-style: italic;
@@ -343,7 +348,6 @@ header {
       text-decoration: none;
       text-align: center;
       color: #e3e3e3;
-      background-color: rgba(0, 0, 0, 0.8);
       text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
       margin: 50px;
       padding: 20px;
@@ -357,9 +361,11 @@ header {
       width: 300px;
       height: 300px;
       padding: 5px;
-      margin: 5px; }
+      margin: 5px;
+      transition: 0.5s; }
       .albumes-bg .albumes-grid .album-6 a img:hover {
-        outline: 3px solid white; }
+        outline: 3px solid white;
+        transform: scale(1.05); }
 
 .bio-display .elementos-1 {
   background-image: url(../img/linkin-bg3.jpg);
