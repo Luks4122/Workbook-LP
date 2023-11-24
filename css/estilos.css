@@ -1787,3 +1787,8 @@ h4 {
   .album-img p {
     font-size: 12px;
     padding: 10px; } }
+
+@media screen and (max-width: 350px) {
+  .perfil-info p {
+    margin-top: 0%;
+    bottom: 0px; } }

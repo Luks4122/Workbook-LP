@@ -1282,3 +1282,10 @@
     }
 
 }
+
+@media screen and (max-width:350px){
+    .perfil-info p{
+        margin-top: 0%;
+        bottom: 0px;
+    }
+}
