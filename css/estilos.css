@@ -780,13 +780,13 @@ section .volver-boton a {
       color: #e3e3e3;
       background-color: rgba(0, 0, 0, 0.8);
       padding: 20px;
-      margin-top: 30%;
+      margin: 5px;
       width: 50%;
       position: relative;
-      bottom: 500px; }
+      bottom: 0px; }
     .perfil-info div img {
       position: relative;
-      bottom: 500px; }
+      bottom: 0px; }
 
 .nombre-bio {
   color: white;
@@ -1790,5 +1790,4 @@ h4 {
 
 @media screen and (max-width: 350px) {
   .perfil-info p {
-    margin-top: 0%;
-    bottom: 0px; } }
+    font-size: 10px; } }
