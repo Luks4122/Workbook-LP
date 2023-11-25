@@ -850,18 +850,38 @@
     }
 }
 
-@media screen and (max-width:350px) {
-    .perfil-info{
-        h2{
-            font-size: 12px;
-        }
-    }
-}
-
 @media screen and (max-width:864px) {
     .perfil-info{
         img{
             width: 70%;
+        }
+    }
+}
+
+@media screen and (max-width:350px) {
+    .perfil-info{
+        div{
+            h2{
+                font-size: 15px;
+            }
+        }
+    }
+    .perfil-info{
+        div{
+            p{
+                padding: 17px;
+                margin: 10px;
+                width: 90%;
+                font-size: 15px;
+            }
+        }
+    }
+
+    .perfil-info{
+        div{
+            img{
+                width: 80%;
+            }
         }
     }
 }
@@ -877,20 +897,36 @@
 }
 
 @media screen and (max-width:350px) {
-    .elementos-1 h2 {
-        font-size: 16px;
-    }
-
-    .elementos-1 p {
-        font-size: 14px;
-    }
-
-    .integrante h2 {
-        width: 30%;
-    }
-
-    .integrante p{
-        font-size: 14px;
+    .bio-display{
+        .elementos-1{
+            h2{
+                font-size: 16px;
+            }
+        }
+    
+        .elementos-1{
+            p{
+                font-size: 14px;
+            }
+    
+        }
+    
+        section{
+            .integrante {
+                h2{
+                    width: 30%;
+                    background-color: black;
+                }
+        
+            }
+        }
+    
+        .integrante{
+            p{
+                font-size: 14px;
+            }
+    
+        }
     }
 }
 
@@ -1447,14 +1483,20 @@
         }
         .album-parrafo{
             padding: 30px;
-
+        }
+        .album-img{
+            padding: 30px;
         }
     }
 }
 
 @media screen and (max-width:350px){
-    .perfil-info p{
-        margin-top: 0%;
-        bottom: 0px;
+    .perfil-info{
+        div{
+            p{
+
+            }
+        }
+
     }
 }

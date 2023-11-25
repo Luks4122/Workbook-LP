@@ -1498,13 +1498,20 @@ h4 {
     position: relative;
     bottom: 500px; } }
 
-@media screen and (max-width: 350px) {
-  .perfil-info h2 {
-    font-size: 12px; } }
-
 @media screen and (max-width: 864px) {
   .perfil-info img {
     width: 70%; } }
+
+@media screen and (max-width: 350px) {
+  .perfil-info div h2 {
+    font-size: 15px; }
+  .perfil-info div p {
+    padding: 17px;
+    margin: 10px;
+    width: 90%;
+    font-size: 15px; }
+  .perfil-info div img {
+    width: 80%; } }
 
 @media screen and (max-width: 570px) {
   .elementos-1 h2 {
@@ -1513,13 +1520,14 @@ h4 {
     font-size: 16px; } }
 
 @media screen and (max-width: 350px) {
-  .elementos-1 h2 {
+  .bio-display .elementos-1 h2 {
     font-size: 16px; }
-  .elementos-1 p {
+  .bio-display .elementos-1 p {
     font-size: 14px; }
-  .integrante h2 {
-    width: 30%; }
-  .integrante p {
+  .bio-display section .integrante h2 {
+    width: 30%;
+    background-color: black; }
+  .bio-display .integrante p {
     font-size: 14px; } }
 
 @media screen and (max-width: 1395px) {
@@ -1826,9 +1834,6 @@ h4 {
     width: 40%;
     left: 30%; }
   .album-info .album-parrafo {
+    padding: 30px; }
+  .album-info .album-img {
     padding: 30px; } }
-
-@media screen and (max-width: 350px) {
-  .perfil-info p {
-    margin-top: 0%;
-    bottom: 0px; } }
