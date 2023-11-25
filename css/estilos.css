@@ -1801,10 +1801,10 @@ h4 {
     font-size: 12px; } }
 
 @media screen and (max-width: 350px) {
-  .disco img {
+  .album-info .disco img {
     position: relative;
     left: 15%; }
-  .disco h2 {
+  .album-info .album-info .disco h2 {
     position: relative;
     left: 40%; }
   .album-info h2 {
@@ -1815,6 +1815,18 @@ h4 {
   .album-img p {
     font-size: 12px;
     padding: 10px; } }
+
+@media screen and (max-width: 350px) {
+  .album-info .disco img {
+    position: relative;
+    left: 15%;
+    margin: 20px;
+    height: 80%; }
+  .album-info .disco h2 {
+    width: 40%;
+    left: 30%; }
+  .album-info .album-parrafo {
+    padding: 30px; } }
 
 @media screen and (max-width: 350px) {
   .perfil-info p {

@@ -1364,19 +1364,28 @@
 }
 
 @media screen and (max-width:542px){
-    .disco img{
-        position: relative;
-        left: 15%;
+    .disco{
+        img{
+            position: relative;
+            left: 15%;
+        }
+
     }
-    .disco h2{
-        position: relative;
-        left: 40%;
+    .disco{
+        h2{
+            position: relative;
+            left: 40%;
+        }
+
     }
 
-    .album-info h2{
-        font-size: 12px;
-        position: relative;
-        top: -50px;
+    .album-info{
+        h2{
+            font-size: 12px;
+            position: relative;
+            top: -50px;
+        }
+
     }
 
 }
@@ -1388,13 +1397,23 @@
 }
 
 @media screen and (max-width:350px){
-    .disco img{
-        position: relative;
-        left: 15%;
+    .album-info{
+        .disco{
+            img{
+                position: relative;
+                left: 15%;
+            }
+
+        }
+    .album-info{
+        .disco{
+            h2{
+                position: relative;
+                left: 40%;
+            }
+
+        }
     }
-    .disco h2{
-        position: relative;
-        left: 40%;
     }
 
     .album-info h2{
@@ -1409,6 +1428,28 @@
         padding: 10px;
     }
 
+}
+
+@media screen and (max-width:350px){
+    .album-info{
+        .disco{
+            img{
+                position: relative;
+                left: 15%;
+                margin: 20px;
+                height: 80%;
+
+            }
+            h2{
+                width: 40%;
+                left: 30%;
+            }
+        }
+        .album-parrafo{
+            padding: 30px;
+
+        }
+    }
 }
 
 @media screen and (max-width:350px){
