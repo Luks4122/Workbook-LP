@@ -47,6 +47,16 @@
     }
 }
 
+@media screen and (max-width:350px) {
+    .top-songs{
+        .video-titulo {
+            h3{
+                
+            }
+        }
+    }
+}
+
 @media screen and (max-width:509px) {
     .container-f{
         h4{
@@ -373,27 +383,7 @@
     }
 }
 
-@media screen and (max-width:350px) {
-    .foto-1{
-        h3{
-            position: relative;
-            left: 50px;
-            font-size: 12px;
-            margin: 9;
-        }
-    }
-}
 
-@media screen and (max-width:350px) {
-    .foto-1{
-        img{
-            margin: 0px;
-            padding: 0px;
-            position: relative;
-            left: 19px;
-        }
-    }
-}
 
 @media screen and (max-width:350px) {
     .foto-2{
@@ -566,21 +556,30 @@
 }
 
 @media screen and (max-width:787px) {
-    .video-titulo{
-        h3{
-            width: 40%;
-            position: relative;
-            left: 30%;
+    .top-title{
+        .top-songs{
+            .video-titulo{
+                h3{
+                    width: 40%;
+                    position: relative;
+                    left: 30%;
+                }
+            }
         }
     }
 }
 
 @media screen and (max-width:350px) {
-    .video-titulo{
-        h3{
-            width: 60%;
-            position: relative;
-            left: 20%;
+    .top-title{
+        .top-songs{
+            .video-titulo{
+                h3{
+                    width: 60%;
+                    position: relative;
+                    left: 20%;
+                    font-size: 15px;
+                }
+            }
         }
     }
 }
@@ -614,9 +613,87 @@
 
 @media screen and (max-width:350px) {
     .conjunto-img{
-        h3{
-            position: relative;
-            left: 15%;
+        .foto-1{
+            img{
+                width: 80%;
+                height: 80%;
+                left: 25px;
+            }
+            h3{
+                position: relative;
+                left: 15%;
+                font-size:12px;
+            }
+        }
+
+    }
+    .conjunto-img{
+        .foto-2{
+            img{
+                width: 80%;
+                height: 80%;
+                left: 25px;
+            }
+            h3{
+                position: relative;
+                left: 15%;
+                font-size:12px;
+            }
+        }
+
+    }
+    .conjunto-img{
+        .foto-3{
+            img{
+                width: 80%;
+                height: 80%;
+                left: 25px;
+            }
+            h3{
+                position: relative;
+                left: 15%;
+                font-size:12px;
+            }
+        }
+
+    }
+    .conjunto-img{
+        .foto-4{
+            img{
+                width: 80%;
+                height: 80%;
+                left: 25px;
+            }
+            h3{
+                position: relative;
+                left: 15%;
+                font-size:12px;
+            }
+        }
+
+    }
+    .conjunto-img{
+        .foto-5{
+            img{
+                width: 80%;
+                height: 80%;
+                left: 25px;
+            }
+            h3{
+                position: relative;
+                left: 15%;
+                font-size:12px;
+            }
+        }
+
+    }
+    .conjunto-img{
+        .foto-9{
+            img{
+                width: 80%;
+                height: 80%;
+                left: 25px;
+            }
         }
     }
 }

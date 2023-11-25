@@ -1199,20 +1199,6 @@ h4 {
     padding: 0px; } }
 
 @media screen and (max-width: 350px) {
-  .foto-1 h3 {
-    position: relative;
-    left: 50px;
-    font-size: 12px;
-    margin: 9; } }
-
-@media screen and (max-width: 350px) {
-  .foto-1 img {
-    margin: 0px;
-    padding: 0px;
-    position: relative;
-    left: 19px; } }
-
-@media screen and (max-width: 350px) {
   .foto-2 h3 {
     position: relative;
     left: 50px;
@@ -1319,16 +1305,17 @@ h4 {
     margin: 10px; } }
 
 @media screen and (max-width: 787px) {
-  .video-titulo h3 {
+  .top-title .top-songs .video-titulo h3 {
     width: 40%;
     position: relative;
     left: 30%; } }
 
 @media screen and (max-width: 350px) {
-  .video-titulo h3 {
+  .top-title .top-songs .video-titulo h3 {
     width: 60%;
     position: relative;
-    left: 20%; } }
+    left: 20%;
+    font-size: 15px; } }
 
 @media screen and (max-width: 1362px) {
   .conjunto-img h3 {
@@ -1346,9 +1333,50 @@ h4 {
     left: 10%; } }
 
 @media screen and (max-width: 350px) {
-  .conjunto-img h3 {
+  .conjunto-img .foto-1 img {
+    width: 80%;
+    height: 80%;
+    left: 25px; }
+  .conjunto-img .foto-1 h3 {
     position: relative;
-    left: 15%; } }
+    left: 15%;
+    font-size: 12px; }
+  .conjunto-img .foto-2 img {
+    width: 80%;
+    height: 80%;
+    left: 25px; }
+  .conjunto-img .foto-2 h3 {
+    position: relative;
+    left: 15%;
+    font-size: 12px; }
+  .conjunto-img .foto-3 img {
+    width: 80%;
+    height: 80%;
+    left: 25px; }
+  .conjunto-img .foto-3 h3 {
+    position: relative;
+    left: 15%;
+    font-size: 12px; }
+  .conjunto-img .foto-4 img {
+    width: 80%;
+    height: 80%;
+    left: 25px; }
+  .conjunto-img .foto-4 h3 {
+    position: relative;
+    left: 15%;
+    font-size: 12px; }
+  .conjunto-img .foto-5 img {
+    width: 80%;
+    height: 80%;
+    left: 25px; }
+  .conjunto-img .foto-5 h3 {
+    position: relative;
+    left: 15%;
+    font-size: 12px; }
+  .conjunto-img .foto-9 img {
+    width: 80%;
+    height: 80%;
+    left: 25px; } }
 
 @media screen and (max-width: 1648px) {
   .perfil-info p {
