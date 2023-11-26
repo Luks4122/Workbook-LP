@@ -1,11 +1,25 @@
 //* EXTENDS *//
 
 %colores-bg{
+    color: black;
+    color: white;
+    color: red;
 
+}
+
+@mixin grid ($columns, $rows)
+
+.titulo{
+    @extend %colores-bg
 }
 
 
 //* MIXINS */
+
+
+
+
+
 
 
 
