@@ -1180,25 +1180,74 @@
             .album-1 h2 {
                 font-size: 16px;
             }
+
+            .album-1{
+                a{
+                    img{
+                        left: 17%;
+                    }
+                }
+            }
         
             .album-2 h2 {
                 font-size: 16px;
             }
+
+            .album-2{
+                a{
+                    img{
+                        left: 17%;
+                    }
+                }
+            }
+
         
             .album-3 h2 {
                 font-size: 16px;
+            }
+
+            .album-3{
+                a{
+                    img{
+                        left: 17%;
+                    }
+                }
             }
         
             .album-4 h2 {
                 font-size: 16px;
             }
+
+            .album-4{
+                a{
+                    img{
+                        left: 17%;
+                    }
+                }
+            }
         
             .album-5 h2 {
                 font-size: 16px;
             }
+
+            .album-5{
+                a{
+                    img{
+                        left: 17%;
+                    }
+                }
+            }
         
             .album-6 h2 {
                 font-size: 16px;
+            }
+
+            .album-6{
+                a{
+                    img{
+                        left: 17%;
+                    }
+                }
             }
         }
     }
@@ -1400,29 +1449,15 @@
 }
 
 @media screen and (max-width:542px){
-    .disco{
-        img{
-            position: relative;
-            left: 15%;
-        }
-
-    }
-    .disco{
-        h2{
-            position: relative;
-            left: 40%;
-        }
-
-    }
-
     .album-info{
-        h2{
-            font-size: 12px;
-            position: relative;
-            top: -50px;
+        .disco{
+            img{
+                left: 3%;
+            }
         }
-
     }
+
+
 
 }
 
@@ -1487,16 +1522,5 @@
         .album-img{
             padding: 30px;
         }
-    }
-}
-
-@media screen and (max-width:350px){
-    .perfil-info{
-        div{
-            p{
-
-            }
-        }
-
     }
 }

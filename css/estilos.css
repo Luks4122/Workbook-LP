@@ -1671,16 +1671,28 @@ h4 {
     grid-template-columns: repeat(1, 1fr); }
     .albumes-bg .albumes-grid .album-1 h2 {
       font-size: 16px; }
+    .albumes-bg .albumes-grid .album-1 a img {
+      left: 17%; }
     .albumes-bg .albumes-grid .album-2 h2 {
       font-size: 16px; }
+    .albumes-bg .albumes-grid .album-2 a img {
+      left: 17%; }
     .albumes-bg .albumes-grid .album-3 h2 {
       font-size: 16px; }
+    .albumes-bg .albumes-grid .album-3 a img {
+      left: 17%; }
     .albumes-bg .albumes-grid .album-4 h2 {
       font-size: 16px; }
+    .albumes-bg .albumes-grid .album-4 a img {
+      left: 17%; }
     .albumes-bg .albumes-grid .album-5 h2 {
       font-size: 16px; }
+    .albumes-bg .albumes-grid .album-5 a img {
+      left: 17%; }
     .albumes-bg .albumes-grid .album-6 h2 {
-      font-size: 16px; } }
+      font-size: 16px; }
+    .albumes-bg .albumes-grid .album-6 a img {
+      left: 17%; } }
 
 @media screen and (max-width: 462px) {
   .albumes-bg .albumes-grid {
@@ -1793,16 +1805,8 @@ h4 {
     left: 40%; } }
 
 @media screen and (max-width: 542px) {
-  .disco img {
-    position: relative;
-    left: 15%; }
-  .disco h2 {
-    position: relative;
-    left: 40%; }
-  .album-info h2 {
-    font-size: 12px;
-    position: relative;
-    top: -50px; } }
+  .album-info .disco img {
+    left: 3%; } }
 
 @media screen and (max-width: 950px) {
   .album-parrafo p {
